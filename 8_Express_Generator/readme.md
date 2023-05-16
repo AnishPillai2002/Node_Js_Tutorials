@@ -71,11 +71,10 @@ This code represents a template for displaying user details. Let's break it down
 -- The {{person.age}} placeholder will be replaced with the value of person.age.
 -- The {{person.comment.comment}} placeholder will be replaced with the value of person.comment.comment.
 -- The {{person.comment.date}} placeholder will be replaced with the value of person.comment.date.
--- The {{#if person.admin}} is a conditional statement in Handlebars. If the person.admin property is truthy (e.g., true), the content inside the {{#if}} block will be rendered in this case, 
-<p>Status: Admin</p>). 
-Otherwise, the content inside the {{else}} block will be rendered (in this case,
-
-<p>Status: User</p>.
+-- The {{#if person.admin}} is a conditional statement in Handlebars.
+If the person.admin property is truth (e.g., true), the content inside the {{#if}} block will be rendered, in this case,<b>Status: Admin</b>. 
+Otherwise, the content inside the {{else}} block will be rendered ,in this case <b>Status: User</b>.
+<br>
 By compiling and rendering this template with the appropriate data, you can dynamically generate HTML output that displays user details and their status based on the admin property.
 
 
