@@ -1,0 +1,13 @@
+
+<h1>User Details</h1>
+<p>Name: {{person.name}}</p>
+<p>Age: {{person.age}}</p>
+<p>Comment: {{person.comment.comment}}</p>
+<p>Date: {{person.comment.date}}</p>
+
+{{#if person.admin}}
+<h2>Status: Admin</h2>
+{{else}}
+<h2>Status: User</h2>
+{{/if}}
+
